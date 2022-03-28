@@ -111,7 +111,7 @@ async function connectToWhatsApp () {
                                                 caption: data
                                             }
                                         )
-                                        sock.sendMessage(part.id, {text: data});
+                                        // sock.sendMessage(part.id, {text: data});
                                     }
                                 });
                             }
