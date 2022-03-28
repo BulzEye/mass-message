@@ -2,7 +2,7 @@
 // const makeWASocket = require('@adiwajshing/baileys-md').default;
 // const { WASocket, AuthenticationState, DisconnectReason, AnyMessageContent, BufferJSON, initInMemoryKeyStore, delay } = require('@adiwajshing/baileys-md');
 
-const activateCmd = "Hello";
+const activateCmd = "Test";
 
 const makeWASocket = require("@adiwajshing/baileys").default;
 const { AnyMessageContent, delay, DisconnectReason, fetchLatestBaileysVersion, makeInMemoryStore, useSingleFileAuthState, MessageType, MessageOptions, Mimetype } = require("@adiwajshing/baileys");
@@ -105,7 +105,7 @@ async function connectToWhatsApp () {
                                     if(err) {console.log("error in opening file: " + err);}
                                     else {
                                         sock.sendMessage(
-                                            id, 
+                                            part.id, 
                                             { 
                                                 image: fs.readFileSync("./manimage.jpeg"), 
                                                 caption: data
