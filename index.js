@@ -138,7 +138,7 @@ async function connectToWhatsApp () {
             }
 		}
         else {
-            console.log(msg);
+            // console.log(msg);
         }
     })
 
