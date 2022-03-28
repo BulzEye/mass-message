@@ -1,0 +1,17 @@
+{
+  "name": "mass-message",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BulzEye",
+  "license": "ISC",
+  "dependencies": {
+    "@adiwajshing/baileys": "^4.0.1",
+    "@hapi/boom": "^9.1.4",
+    "pino": "^7.9.2",
+    "pino-pretty": "^7.6.0"
+  }
+}
