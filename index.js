@@ -121,7 +121,7 @@ async function connectToWhatsApp () {
                 }
             }
             else if(msgType === "extendedTextMessage") {
-                console.log(msg);
+                // console.log(msg);
                 const msgText = msg.message.extendedTextMessage.text;
                 if(msgText === "!save") {
                     console.log("detected cmd");
