@@ -127,7 +127,7 @@ async function connectToWhatsApp () {
                     console.log("detected cmd");
                     console.log("Received tagged TTS");
 
-                    console.log(msg.message.extendedTextMessage.contextInfo.quotedMessage);
+                    // console.log(msg.message.extendedTextMessage.contextInfo.quotedMessage);
 
                     let ogMsg = msg.message.extendedTextMessage.contextInfo.quotedMessage.conversation;
                     fs.writeFile("./msg.txt", ogMsg, () => {
